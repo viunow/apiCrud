@@ -1,5 +1,5 @@
 # apiCrud
-CRUD simples de API feito com Asp.NET Core, EF Core e com JWT Tokens para a segurança da API.
+CRUD simples de API feito com Asp.NET Core, EF Core e com JWT Tokens para a segurança da API. Usando Postman para testar os endpoints.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -54,7 +54,7 @@ Scaffold-DbContext “Server=******;Database=Inventory;Integrated Security=True�
 Endpoints no Postman:
 
 [POST] Create product
-######  URL: https://localhost:44346/api/products
+  ###### URL: https://localhost:44346/api/products
   No Body selecionar RAW e o tipo JSON
   ```
   {
@@ -67,10 +67,10 @@ Endpoints no Postman:
   ```
 -------------------------------------------------------------
 [GET] Return product
-  URL: https://localhost:44346/api/products
+  ###### URL: https://localhost:44346/api/products
 -------------------------------------------------------------
 [PUT] Update product
-  URL: https://localhost:44346/api/products/{id}
+  ###### URL: https://localhost:44346/api/products/{id}
   No Body selecionar RAW e o tipo JSON
   ```
   {
@@ -84,10 +84,10 @@ Endpoints no Postman:
   ```
 -------------------------------------------------------------  
 [DEL] Delete product
-  URL: https://localhost:44346/api/products/2
+  ###### URL: https://localhost:44346/api/products/2
 -------------------------------------------------------------  
 [POST] Access token
-  URL: https://localhost:44346/api/token
+  ###### URL: https://localhost:44346/api/token
   No Body selecionar RAW e o tipo JSON\
   ```
   {
