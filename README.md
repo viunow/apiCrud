@@ -3,7 +3,7 @@ CRUD simples de API feito com Asp.NET Core, EF Core e com JWT Tokens para a segu
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Instalar os NuGet Packages necessários para rodar esse projeto:
+## Instalar os NuGet Packages necessários para rodar esse projeto:
 
 - Microsoft.VisualStudio.Web.CodeGeneration.Design -Version 3.1.4
 - Microsoft.EntityFrameworkCore.Tools -Version 3.1.8
@@ -13,7 +13,7 @@ Instalar os NuGet Packages necessários para rodar esse projeto:
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-SQL Server
+## SQL Server
 
 Criar o Banco de Dados no SQL Server chamado 'Inventory'
 
@@ -43,7 +43,7 @@ Colar a seguinte Query SQL na janela de Query para criar as tabelas necessárias
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Package Manager Console
+## Package Manager Console
 
 Colar e rodar o seguinte comando no PMC para criar o contexto do banco de dados e entidades das tabelas. Esse comendo vai criar apenas as classes para as tabelas que possuem a primary key:
 
@@ -51,7 +51,7 @@ Scaffold-DbContext “Server=******;Database=Inventory;Integrated Security=True�
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Endpoints no Postman:
+## Endpoints no Postman:
 
 [POST] Create product
   ###### URL: https://localhost:44346/api/products
