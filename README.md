@@ -53,7 +53,7 @@ Scaffold-DbContext â€œServer=******;Database=Inventory;Integrated Security=Trueâ
 
 Endpoints no Postman:
 
-###### [POST] Create product
+[POST] Create product
 ######  URL: https://localhost:44346/api/products
   No Body selecionar RAW e o tipo JSON
   ```
