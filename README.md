@@ -88,7 +88,7 @@ Scaffold-DbContext â€œServer=******;Database=Inventory;Integrated Security=Trueâ
 -------------------------------------------------------------  
 [POST] Access token
   ###### URL: https://localhost:44346/api/token
-  No Body selecionar RAW e o tipo JSON\
+  No Body selecionar RAW e o tipo JSON
   ```
   {
     "Email" : "InventoryAdmin@abc.com",
