@@ -5,11 +5,11 @@ CRUD simples de API feito com Asp.NET Core, EF Core e com JWT Tokens para a segu
 
 ## Instalar os NuGet Packages necessários para rodar esse projeto:
 
-- Microsoft.VisualStudio.Web.CodeGeneration.Design -Version 3.1.4
-- Microsoft.EntityFrameworkCore.Tools -Version 3.1.8
-- Microsoft.EntityFrameworkCore.SqlServer -Version 3.1.8
-- System.IdentityModel.Tokens.Jwt -Version 5.6.0
-- Microsoft.AspNetCore.Authentication.JwtBearer -Version 3.1.8
+- Microsoft.VisualStudio.Web.CodeGeneration.Design
+- Microsoft.EntityFrameworkCore.Tools
+- Microsoft.EntityFrameworkCore.SqlServer
+- System.IdentityModel.Tokens.Jwt
+- Microsoft.AspNetCore.Authentication.JwtBearer
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
