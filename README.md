@@ -66,8 +66,18 @@ Scaffold-DbContext “Server=******;Database=Inventory;Integrated Security=True�
   }
   ```
 -------------------------------------------------------------
-[GET] Return product
+[GET] Return products
   ###### URL: https://localhost:44346/api/products
+  
+-------------------------------------------------------------
+[GET] Return product detail
+  ###### URL: https://localhost:44346/api/products{id}
+  
+-------------------------------------------------------------
+[GET] Return filtered products
+  ###### URL: https://localhost:44346/api/products?instock=true&skip=2&take=3
+ - Retornar os produtos que estão em estoque, neste exemplo pula os dois primeiros e mostra os próximos três registros.
+
 -------------------------------------------------------------
 [PUT] Update product
   ###### URL: https://localhost:44346/api/products/{id}
@@ -84,7 +94,8 @@ Scaffold-DbContext “Server=******;Database=Inventory;Integrated Security=True�
   ```
 -------------------------------------------------------------  
 [DEL] Delete product
-  ###### URL: https://localhost:44346/api/products/2
+  ###### URL: https://localhost:44346/api/products/{id}
+  
 -------------------------------------------------------------  
 [POST] Access token
   ###### URL: https://localhost:44346/api/token
@@ -96,7 +107,7 @@ Scaffold-DbContext “Server=******;Database=Inventory;Integrated Security=True�
   }
   ```
 
-Copiar o Token gerado e passar no Authorization do GET de Return product para autenticar o usuário, senão é retornado Status 401 Unauthorized.
+Copiar e usar o Token no Header das requisições para poder acessar o recurso product, pois o mesmo exige autenticação, senão é retornado Status 401 Unauthorized.
  
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  
